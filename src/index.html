@@ -67,11 +67,11 @@
               <span class="year-pill">2022</span>
             </div>
             <div id="country-filters" class="country-filters" role="group" aria-label="Highlight countries">
-              <span class="chart-loading">Loading country controls…</span>
+              <span class="chart-loading">Interactive country filters require JavaScript; the CSV snapshot remains available below.</span>
             </div>
             <p id="snapshot-data-status" class="chart-footnote" role="status" aria-live="polite"></p>
             <div id="scatter-chart" class="chart-shell" aria-live="polite">
-              <p class="chart-loading">Loading official observations…</p>
+              <p class="chart-loading">Interactive chart requires JavaScript; open the CSV snapshot below to inspect the observations.</p>
             </div>
             <div class="chart-footnote">Dots are colored by country; the x-axis encodes renewable share and the y-axis encodes GHG emissions per person.</div>
           </article>
@@ -106,23 +106,23 @@
         <div class="trend-toolbar panel">
           <label for="country-select">Follow one country</label>
           <select id="country-select" aria-label="Choose a country for the trend charts"></select>
-            <p id="trend-summary" class="toolbar-summary" aria-live="polite" aria-atomic="true">Loading…</p>
+            <p id="trend-summary" class="toolbar-summary" aria-live="polite" aria-atomic="true">Interactive trends require JavaScript; open the CSV snapshot below to inspect the observations.</p>
         </div>
 
         <div class="trend-grid">
           <article class="panel line-panel">
             <div class="panel-heading"><div><span class="panel-kicker">Transition signal · 2010–2022</span><h3>Renewable share</h3></div><span class="unit-pill">% of final energy</span></div>
-            <div id="renewable-chart" class="chart-shell chart-shell-small"><p class="chart-loading">Loading trend…</p></div>
+            <div id="renewable-chart" class="chart-shell chart-shell-small"><p class="chart-loading">Interactive chart requires JavaScript; open the CSV snapshot below to inspect the observations.</p></div>
             <p id="renewable-caption" class="chart-caption"></p>
           </article>
           <article class="panel line-panel">
             <div class="panel-heading"><div><span class="panel-kicker">Pressure signal · 1990–2024</span><h3>GHG emissions per person</h3></div><span class="unit-pill">tonnes / person</span></div>
-            <div id="emissions-chart" class="chart-shell chart-shell-small"><p class="chart-loading">Loading trend…</p></div>
+            <div id="emissions-chart" class="chart-shell chart-shell-small"><p class="chart-loading">Interactive chart requires JavaScript; open the CSV snapshot below to inspect the observations.</p></div>
             <p id="emissions-caption" class="chart-caption"></p>
           </article>
           <article class="panel line-panel climate-panel">
             <div class="panel-heading"><div><span class="panel-kicker">Climate signal · 1990–2024</span><h3>Sea-surface temperature anomaly</h3></div><span class="unit-pill">°C vs 1971–2000</span></div>
-            <div id="sst-chart" class="chart-shell chart-shell-small"><p class="chart-loading">Loading trend…</p></div>
+            <div id="sst-chart" class="chart-shell chart-shell-small"><p class="chart-loading">Interactive chart requires JavaScript; open the CSV snapshot below to inspect the observations.</p></div>
             <p id="sst-caption" class="chart-caption"></p>
           </article>
         </div>
@@ -138,7 +138,7 @@
             <table>
               <caption class="sr-only">2022 comparison of renewable energy share and greenhouse gas emissions per capita</caption>
               <thead><tr><th scope="col">Rank by renewable share</th><th scope="col">Renewable share</th><th scope="col">GHG / person</th><th scope="col">Sea-surface anomaly</th></tr></thead>
-              <tbody id="comparison-table"><tr><td colspan="4">Loading official observations…</td></tr></tbody>
+              <tbody id="comparison-table"><tr><td colspan="4">Interactive table requires JavaScript; open the CSV snapshot below to inspect the observations.</td></tr></tbody>
             </table>
           </div>
           <p class="table-note"><span aria-hidden="true">↳</span> Rank is descriptive only. The sea-surface anomaly is shown as a separate climate signal, not a measure of damage or resilience.</p>

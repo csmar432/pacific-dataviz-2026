@@ -2,7 +2,7 @@
 
 The official [2026 rules](https://pacificdatavizchallenge.org/sites/default/files/2026-05/Pacific-Dataviz-Challenge-2026-rules-reglement.pdf) should be treated as authoritative if they change.
 
-## Already covered by this prototype
+## Already covered by this submission
 
 - [x] Climate change theme.
 - [x] At least one dataset from the official list; this submission uses two.
