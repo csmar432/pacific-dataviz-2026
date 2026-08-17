@@ -21,8 +21,8 @@ The official [2026 rules](https://pacificdatavizchallenge.org/sites/default/file
 - [ ] Check the licence/attribution terms for both datasets and keep the required attribution on the public page.
 - [ ] Record the exact dataset-specific licence name/version and required attribution from the metadata page; the package does not infer a licence when the `.Stat` response omits it.
 - [ ] Replace the generic creator/team line with the entrant’s real name/team and contact details in the registration form.
-- [ ] Publish the project root at a stable public URL with `src/` as the entry path, or configure equivalent routes for `data/` and `submission/`; test it from a logged-out browser.
-- [ ] Confirm the interactive URL will remain available through **31 August 2029**.
+- [x] Publish the project root at <https://csmar432.github.io/pacific-dataviz-2026/src/> with HTTPS; keep it accessible through **31 August 2029**.
+- [ ] Test the hosted page from a logged-out browser and capture the live-page screenshot.
 - [x] Export a high-quality PDF/PNG fallback and inspect it at 100% scale (`fallback.pdf`, `fallback.png`).
 - [ ] Capture a screenshot of the live page and keep the CSV/data dictionary beside the project archive.
 - [ ] Proofread every claim and independently verify the values against the official source.
