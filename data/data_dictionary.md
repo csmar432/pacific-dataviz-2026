@@ -1,6 +1,6 @@
 # Data dictionary and provenance
 
-Snapshot downloaded **2026-08-16** from the Pacific Data Hub `.Stat` REST API. The page uses no fabricated values, interpolation or silent substitution.
+Snapshot downloaded **2026-08-17** from the Pacific Data Hub `.Stat` REST API. The page uses no fabricated values, interpolation or silent substitution.
 
 ## Licence and attribution gate
 
