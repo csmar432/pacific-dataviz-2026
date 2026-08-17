@@ -3,6 +3,7 @@
 This folder contains the locally verified evidence pack for the interactive page:
 
 - `fallback.html`, `fallback.pdf` and `fallback.png` — static fallbacks;
+- `screenshots/online-desktop.png` and `screenshots/online-mobile.png` — live Chrome acceptance screenshots;
 - `problem-statement.md` — the question and the visual response;
 - `ai-disclosure.md` — prepared AI-use disclosure text;
 - `checklist.md` — official requirements and entrant-owned release gates;
