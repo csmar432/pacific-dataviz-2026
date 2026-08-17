@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An interactive Pacific climate data story comparing greenhouse gas emissions per capita with renewable energy share.">
+  <title>Two speeds of transition | Pacific Dataviz Challenge 2026</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#explorer">Skip to the data story</a>
+
+  <header class="site-header wrapper">
+    <a class="brand" href="#top" aria-label="Two speeds of transition home">
+      <span class="brand-mark" aria-hidden="true">≈</span>
+      <span><strong>Two speeds</strong><small>of transition</small></span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#snapshot">Snapshot</a>
+      <a href="#trends">Trends</a>
+      <a href="#method">Method</a>
+      <a class="nav-download" href="../data/pacific_climate_transition.csv" download>CSV ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero wrapper" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Pacific Dataviz Challenge · 2026</p>
+        <h1 id="page-title">The Pacific’s transition is not one story.</h1>
+        <p class="hero-lede">Two speeds sit side by side: clean-energy uptake and the emissions burden still carried by each system. Across seven island states, the useful question is not who is “winning”; it is where the starting points and policy choices differ.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#snapshot">Explore the 2022 snapshot <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#method">See the evidence trail <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <aside class="hero-note" aria-label="The question this visualisation addresses">
+        <p class="eyebrow">The question</p>
+        <p class="question">How can a region with very different carbon footprints plan a fair energy transition?</p>
+        <div class="hero-note-footer"><span class="live-dot" aria-hidden="true"></span> Official data snapshot · overlap through 2022</div>
+      </aside>
+    </section>
+
+    <section class="proof-strip wrapper" aria-label="Dataset summary">
+      <div><strong>07</strong><span>island states</span></div>
+      <div><strong>03</strong><span>official indicators</span></div>
+      <div><strong>1990–2024</strong><span>emissions series</span></div>
+      <div><strong>2010–2022</strong><span>renewable series</span></div>
+    </section>
+
+    <div id="explorer" class="wrapper" tabindex="-1">
+      <section id="snapshot" class="story-section" aria-labelledby="snapshot-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">01 · A common year</p>
+            <h2 id="snapshot-title">Start with the 2022 snapshot.</h2>
+          </div>
+          <p class="section-intro">Each dot is a country. Move right for a higher renewable share; move up for more greenhouse gas emissions per person. The two axes describe different pressures—they are not a score.</p>
+        </div>
+
+        <div class="story-grid snapshot-grid">
+          <article class="panel chart-panel">
+            <div class="panel-heading">
+              <div><span class="panel-kicker">Official dataset overlap</span><h3>Carbon intensity and renewable energy</h3></div>
+              <span class="year-pill">2022</span>
+            </div>
+            <div id="country-filters" class="country-filters" role="group" aria-label="Highlight countries">
+              <span class="chart-loading">Loading country controls…</span>
+            </div>
+            <p id="snapshot-data-status" class="chart-footnote" role="status" aria-live="polite"></p>
+            <div id="scatter-chart" class="chart-shell" aria-live="polite">
+              <p class="chart-loading">Loading official observations…</p>
+            </div>
+            <div class="chart-footnote">Dots are colored by country; the x-axis encodes renewable share and the y-axis encodes GHG emissions per person.</div>
+          </article>
+
+          <aside class="insight-stack">
+            <article class="insight-card insight-primary">
+              <p class="eyebrow">What the snapshot says</p>
+              <p id="snapshot-takeaway" class="insight-title" aria-live="polite" aria-atomic="true">Solomon Islands has the highest renewable share in this 2022 comparison.</p>
+              <p id="snapshot-detail" aria-live="polite" aria-atomic="true">50.08% of final energy consumption is renewable, while Tuvalu records the lowest emissions at 0.4 tonnes per person. These are descriptive contrasts, not a policy ranking.</p>
+            </article>
+            <article class="mini-card">
+              <span class="mini-index">A</span>
+              <div><h3>Low emissions ≠ low vulnerability</h3><p>Per-capita emissions show contribution to the problem, not exposure to its impacts.</p></div>
+            </article>
+            <article class="mini-card">
+              <span class="mini-index">B</span>
+              <div><h3>Renewables ≠ one technology</h3><p>The official indicator is a share of final energy consumption, not installed capacity.</p></div>
+            </article>
+          </aside>
+        </div>
+      </section>
+
+      <section id="trends" class="story-section" aria-labelledby="trends-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">02 · A country in motion</p>
+            <h2 id="trends-title">The direction of travel changes by place.</h2>
+          </div>
+          <p class="section-intro">Use the selector to follow one country across time. The third line adds a climate signal—the annual sea-surface-temperature anomaly over its EEZ—without pretending it is a damage or vulnerability score.</p>
+        </div>
+
+        <div class="trend-toolbar panel">
+          <label for="country-select">Follow one country</label>
+          <select id="country-select" aria-label="Choose a country for the trend charts"></select>
+            <p id="trend-summary" class="toolbar-summary" aria-live="polite" aria-atomic="true">Loading…</p>
+        </div>
+
+        <div class="trend-grid">
+          <article class="panel line-panel">
+            <div class="panel-heading"><div><span class="panel-kicker">Transition signal · 2010–2022</span><h3>Renewable share</h3></div><span class="unit-pill">% of final energy</span></div>
+            <div id="renewable-chart" class="chart-shell chart-shell-small"><p class="chart-loading">Loading trend…</p></div>
+            <p id="renewable-caption" class="chart-caption"></p>
+          </article>
+          <article class="panel line-panel">
+            <div class="panel-heading"><div><span class="panel-kicker">Pressure signal · 1990–2024</span><h3>GHG emissions per person</h3></div><span class="unit-pill">tonnes / person</span></div>
+            <div id="emissions-chart" class="chart-shell chart-shell-small"><p class="chart-loading">Loading trend…</p></div>
+            <p id="emissions-caption" class="chart-caption"></p>
+          </article>
+          <article class="panel line-panel climate-panel">
+            <div class="panel-heading"><div><span class="panel-kicker">Climate signal · 1990–2024</span><h3>Sea-surface temperature anomaly</h3></div><span class="unit-pill">°C vs 1971–2000</span></div>
+            <div id="sst-chart" class="chart-shell chart-shell-small"><p class="chart-loading">Loading trend…</p></div>
+            <p id="sst-caption" class="chart-caption"></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="story-section" aria-labelledby="comparison-title">
+        <div class="section-heading compact-heading">
+          <div><p class="eyebrow">03 · A closer read</p><h2 id="comparison-title">Same region, different starting points.</h2></div>
+          <p class="section-intro">This table keeps the exact 2022 values beside the visual so the story stays inspectable.</p>
+        </div>
+        <article class="panel table-panel">
+          <div class="table-wrap">
+            <table>
+              <caption class="sr-only">2022 comparison of renewable energy share and greenhouse gas emissions per capita</caption>
+              <thead><tr><th scope="col">Rank by renewable share</th><th scope="col">Renewable share</th><th scope="col">GHG / person</th><th scope="col">Sea-surface anomaly</th></tr></thead>
+              <tbody id="comparison-table"><tr><td colspan="4">Loading official observations…</td></tr></tbody>
+            </table>
+          </div>
+          <p class="table-note"><span aria-hidden="true">↳</span> Rank is descriptive only. The sea-surface anomaly is shown as a separate climate signal, not a measure of damage or resilience.</p>
+        </article>
+      </section>
+
+      <section class="limits-section" aria-labelledby="limits-title">
+        <div class="limits-intro"><p class="eyebrow">Keep the caveat visible</p><h2 id="limits-title">Evidence is strongest when its edges are clear.</h2><p>This explorer is a comparison tool, not a causal model. It gives a shared vocabulary for the next policy question.</p></div>
+        <div class="limits-list">
+          <div class="limit-item"><span>01</span><div><h3>What we can see</h3><p>Country-level differences in three official indicators, and how those signals change over time.</p></div></div>
+          <div class="limit-item"><span>02</span><div><h3>What we cannot see</h3><p>Exposure to hazards, distribution within a country, energy reliability, prices, or the causes of a year-to-year change.</p></div></div>
+          <div class="limit-item"><span>03</span><div><h3>What to ask next</h3><p>Which investments make clean energy dependable and affordable without shifting costs onto already exposed communities?</p></div></div>
+        </div>
+      </section>
+
+      <section id="method" class="method-section" aria-labelledby="method-title">
+        <div class="section-heading compact-heading">
+          <div><p class="eyebrow">Evidence trail</p><h2 id="method-title">Source, definition, method.</h2></div>
+          <p class="section-intro">The data snapshot is local and inspectable. The page does not silently replace missing observations or call a relationship causal.</p>
+        </div>
+        <div class="method-grid">
+          <article class="method-card"><span class="method-number">01</span><h3>Primary official source</h3><p>Pacific Data Hub .Stat, the official data explorer named by the Challenge.</p><a href="https://stats.pacificdata.org/" target="_blank" rel="noopener noreferrer">Open .Stat Explorer ↗</a><br><a href="https://pacificdata.org/terms-use" target="_blank" rel="noopener noreferrer">Read dataset licence terms ↗</a></article>
+          <article class="method-card"><span class="method-number">02</span><h3>Three official indicators</h3><p>GHG emissions and sea-surface anomaly from <code>DF_CLIMATE_CHANGE</code>; renewable energy share from <code>DF_SDG</code>.</p><a href="../data/data_dictionary.md">Read the data dictionary ↗</a></article>
+          <article class="method-card"><span class="method-number">03</span><h3>Reproducible snapshot</h3><p>Values are downloaded into a CSV and embedded locally so the interactive page works without a live API call.</p><a href="../scripts/fetch_official_data.py">See the fetch script ↗</a></article>
+        </div>
+        <div class="source-callout"><strong>Downloaded <span id="snapshot-date">from the official API</span>.</strong> The local snapshot, definitions and reproducible fetch script keep every comparison inspectable. <span class="evidence-links"><a href="../data/data_dictionary.md">Data dictionary</a> · <a href="../submission/problem-statement.md">Problem statement</a> · <a href="../submission/ai-disclosure.md">AI disclosure</a></span></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer wrapper">
+    <div><span class="brand-mark" aria-hidden="true">≈</span><strong>Two speeds of transition</strong><p>Interactive dataviz submission for the Pacific Dataviz Challenge 2026.</p></div>
+    <div class="footer-links"><a href="https://pacificdatavizchallenge.org/" target="_blank" rel="noopener noreferrer">Challenge ↗</a><a href="https://pacificdatavizchallenge.org/sites/default/files/2026-05/Pacific-Dataviz-Challenge-2026-rules-reglement.pdf" target="_blank" rel="noopener noreferrer">Rules ↗</a><a href="../submission/README.md">Submission pack ↗</a></div>
+  </footer>
+
+  <noscript><div class="noscript-note">JavaScript is required for the interactive charts. The local <a href="../data/pacific_climate_transition.csv">CSV snapshot</a> remains available.</div></noscript>
+</body>
+</html>

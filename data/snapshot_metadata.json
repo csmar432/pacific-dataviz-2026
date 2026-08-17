@@ -1,0 +1,19 @@
+{
+  "transaction": "commit-marker-written-last",
+  "downloaded_at_utc": "2026-08-16T13:15:19+00:00",
+  "downloaded_on": "2026-08-16",
+  "api_root": "https://stats-nsi-stable.pacificdata.org/rest/data",
+  "row_count": 245,
+  "countries": [
+    "FJ",
+    "KI",
+    "SB",
+    "TO",
+    "TV",
+    "VU",
+    "WS"
+  ],
+  "csv_sha256": "ab65d17dee63844a229bb3344ff517445b263d8168d9bc0c426b1c24feb59e64",
+  "dictionary_sha256": "2d69100d06c3751f86d3dd38876232765f708414c5b28d398d15e56b36a4b11a",
+  "data_js_sha256": "46d0298be823cf0a05dde8d88274a940480b0bebc15a2524090b9feff083b2df"
+}

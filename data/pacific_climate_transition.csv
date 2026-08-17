@@ -1,0 +1,246 @@
+country_code,country,year,ghg_tonnes_per_capita,renewable_share_percent,sst_anomaly_celsius
+FJ,Fiji,1990,2.8,,0.1
+FJ,Fiji,1991,2.6,,-0.2
+FJ,Fiji,1992,2.8,,-0.2
+FJ,Fiji,1993,2.9,,-0.4
+FJ,Fiji,1994,3.1,,-0.4
+FJ,Fiji,1995,3.1,,0.1
+FJ,Fiji,1996,3.1,,0.2
+FJ,Fiji,1997,3.1,,-0.2
+FJ,Fiji,1998,3.1,,0.1
+FJ,Fiji,1999,3.1,,0.3
+FJ,Fiji,2000,3.3,,0.4
+FJ,Fiji,2001,3.4,,0.3
+FJ,Fiji,2002,3.1,,0.3
+FJ,Fiji,2003,3.3,,0.2
+FJ,Fiji,2004,3.8,,0.2
+FJ,Fiji,2005,3.5,,0.3
+FJ,Fiji,2006,3.6,,0.2
+FJ,Fiji,2007,3.5,,0.4
+FJ,Fiji,2008,3.0,,0.5
+FJ,Fiji,2009,2.7,,0.2
+FJ,Fiji,2010,3.4,27.95,0.4
+FJ,Fiji,2011,2.9,33.38,0.6
+FJ,Fiji,2012,2.8,33.26,0.3
+FJ,Fiji,2013,3.0,32.81,0.5
+FJ,Fiji,2014,2.7,33.17,0.4
+FJ,Fiji,2015,2.8,28.55,-0.1
+FJ,Fiji,2016,2.8,24.64,0.5
+FJ,Fiji,2017,2.8,26.03,0.5
+FJ,Fiji,2018,2.9,24.41,0.4
+FJ,Fiji,2019,3.0,24.78,0.4
+FJ,Fiji,2020,2.3,25.03,0.5
+FJ,Fiji,2021,2.6,29.92,0.7
+FJ,Fiji,2022,2.7,26.67,1.1
+FJ,Fiji,2023,2.9,,0.5
+FJ,Fiji,2024,3.0,,0.6
+KI,Kiribati,1990,0.4,,0.3
+KI,Kiribati,1991,0.4,,0.7
+KI,Kiribati,1992,0.5,,0.5
+KI,Kiribati,1993,0.5,,0.4
+KI,Kiribati,1994,0.5,,0.6
+KI,Kiribati,1995,0.4,,0.3
+KI,Kiribati,1996,0.4,,-0.2
+KI,Kiribati,1997,0.4,,0.6
+KI,Kiribati,1998,0.4,,-0.1
+KI,Kiribati,1999,0.4,,-0.8
+KI,Kiribati,2000,0.6,,-0.7
+KI,Kiribati,2001,0.5,,0.0
+KI,Kiribati,2002,0.7,,0.7
+KI,Kiribati,2003,0.7,,0.6
+KI,Kiribati,2004,0.7,,0.6
+KI,Kiribati,2005,0.9,,0.4
+KI,Kiribati,2006,0.9,,0.4
+KI,Kiribati,2007,0.8,,0.1
+KI,Kiribati,2008,0.9,,-0.6
+KI,Kiribati,2009,0.8,,0.4
+KI,Kiribati,2010,0.8,50.14,-0.1
+KI,Kiribati,2011,0.7,50.51,-0.7
+KI,Kiribati,2012,0.7,48.73,0.0
+KI,Kiribati,2013,0.8,46.16,0.1
+KI,Kiribati,2014,0.8,47.98,0.5
+KI,Kiribati,2015,0.8,47.48,1.1
+KI,Kiribati,2016,0.8,48.1,0.7
+KI,Kiribati,2017,0.8,42.51,0.2
+KI,Kiribati,2018,0.9,42.31,0.4
+KI,Kiribati,2019,0.9,42.19,0.8
+KI,Kiribati,2020,0.8,42.24,0.2
+KI,Kiribati,2021,0.9,42.23,-0.3
+KI,Kiribati,2022,0.8,41.86,-0.6
+KI,Kiribati,2023,0.8,,0.7
+KI,Kiribati,2024,0.9,,0.8
+SB,Solomon Islands,1990,0.9,,0.2
+SB,Solomon Islands,1991,0.9,,0.1
+SB,Solomon Islands,1992,0.9,,-0.3
+SB,Solomon Islands,1993,0.9,,-0.5
+SB,Solomon Islands,1994,0.9,,-0.1
+SB,Solomon Islands,1995,0.8,,0.3
+SB,Solomon Islands,1996,0.8,,0.3
+SB,Solomon Islands,1997,0.8,,-0.1
+SB,Solomon Islands,1998,0.8,,0.2
+SB,Solomon Islands,1999,0.8,,0.2
+SB,Solomon Islands,2000,0.9,,0.3
+SB,Solomon Islands,2001,1.0,,0.4
+SB,Solomon Islands,2002,1.0,,0.3
+SB,Solomon Islands,2003,1.0,,0.5
+SB,Solomon Islands,2004,1.0,,0.3
+SB,Solomon Islands,2005,1.0,,0.5
+SB,Solomon Islands,2006,1.0,,0.3
+SB,Solomon Islands,2007,1.0,,0.6
+SB,Solomon Islands,2008,1.0,,0.3
+SB,Solomon Islands,2009,1.0,,0.4
+SB,Solomon Islands,2010,1.1,45.07,0.4
+SB,Solomon Islands,2011,1.1,43.61,0.4
+SB,Solomon Islands,2012,1.0,43.82,0.3
+SB,Solomon Islands,2013,1.1,41.83,0.4
+SB,Solomon Islands,2014,1.0,45.89,0.5
+SB,Solomon Islands,2015,0.9,48.64,0.1
+SB,Solomon Islands,2016,0.9,48.7,0.7
+SB,Solomon Islands,2017,0.8,48.98,0.7
+SB,Solomon Islands,2018,0.8,48.64,0.6
+SB,Solomon Islands,2019,0.8,48.36,0.5
+SB,Solomon Islands,2020,0.8,49.03,0.8
+SB,Solomon Islands,2021,0.8,49.13,0.6
+SB,Solomon Islands,2022,0.8,50.08,0.7
+SB,Solomon Islands,2023,0.7,,0.6
+SB,Solomon Islands,2024,0.8,,0.9
+TO,Tonga,1990,1.9,,0.0
+TO,Tonga,1991,2.0,,-0.1
+TO,Tonga,1992,2.1,,0.0
+TO,Tonga,1993,2.1,,-0.3
+TO,Tonga,1994,2.5,,-0.3
+TO,Tonga,1995,2.2,,0.2
+TO,Tonga,1996,2.4,,0.3
+TO,Tonga,1997,2.4,,-0.2
+TO,Tonga,1998,2.5,,0.0
+TO,Tonga,1999,2.5,,0.4
+TO,Tonga,2000,2.0,,0.5
+TO,Tonga,2001,2.0,,0.2
+TO,Tonga,2002,2.1,,0.3
+TO,Tonga,2003,2.3,,0.3
+TO,Tonga,2004,2.1,,0.4
+TO,Tonga,2005,2.2,,0.4
+TO,Tonga,2006,2.3,,0.3
+TO,Tonga,2007,2.1,,0.4
+TO,Tonga,2008,2.2,,0.6
+TO,Tonga,2009,2.3,,0.3
+TO,Tonga,2010,2.2,0.96,0.6
+TO,Tonga,2011,2.2,1.1,0.8
+TO,Tonga,2012,2.1,1.1,0.4
+TO,Tonga,2013,2.2,1.54,0.6
+TO,Tonga,2014,2.3,1.68,0.4
+TO,Tonga,2015,2.4,2.0,-0.1
+TO,Tonga,2016,2.5,1.7,0.4
+TO,Tonga,2017,2.6,1.74,0.6
+TO,Tonga,2018,2.5,1.69,0.5
+TO,Tonga,2019,2.7,1.68,0.5
+TO,Tonga,2020,2.9,2.55,0.7
+TO,Tonga,2021,3.1,2.4,0.8
+TO,Tonga,2022,2.7,2.08,1.1
+TO,Tonga,2023,2.7,,0.5
+TO,Tonga,2024,2.8,,0.6
+TV,Tuvalu,1990,0.4,,0.3
+TV,Tuvalu,1991,0.4,,0.4
+TV,Tuvalu,1992,0.4,,0.2
+TV,Tuvalu,1993,0.4,,0.1
+TV,Tuvalu,1994,0.4,,0.3
+TV,Tuvalu,1995,0.4,,0.4
+TV,Tuvalu,1996,0.4,,0.1
+TV,Tuvalu,1997,0.4,,0.2
+TV,Tuvalu,1998,0.4,,-0.2
+TV,Tuvalu,1999,0.4,,-0.3
+TV,Tuvalu,2000,0.4,,-0.1
+TV,Tuvalu,2001,0.4,,0.2
+TV,Tuvalu,2002,0.4,,0.5
+TV,Tuvalu,2003,0.4,,0.6
+TV,Tuvalu,2004,0.4,,0.6
+TV,Tuvalu,2005,0.4,,0.5
+TV,Tuvalu,2006,0.4,,0.4
+TV,Tuvalu,2007,0.4,,0.4
+TV,Tuvalu,2008,0.4,,-0.2
+TV,Tuvalu,2009,0.4,,0.4
+TV,Tuvalu,2010,0.3,0.45,0.2
+TV,Tuvalu,2011,0.3,0.21,-0.2
+TV,Tuvalu,2012,0.3,0.27,0.3
+TV,Tuvalu,2013,0.3,0.7,0.4
+TV,Tuvalu,2014,0.3,0.65,0.6
+TV,Tuvalu,2015,0.3,2.98,0.6
+TV,Tuvalu,2016,0.3,7.27,0.7
+TV,Tuvalu,2017,0.3,6.98,0.5
+TV,Tuvalu,2018,0.4,6.03,0.6
+TV,Tuvalu,2019,0.4,6.12,0.8
+TV,Tuvalu,2020,0.4,6.31,0.6
+TV,Tuvalu,2021,0.4,5.38,0.2
+TV,Tuvalu,2022,0.4,5.52,-0.1
+TV,Tuvalu,2023,0.4,,0.6
+TV,Tuvalu,2024,0.4,,0.9
+VU,Vanuatu,1990,3.2,,0.2
+VU,Vanuatu,1991,3.1,,-0.3
+VU,Vanuatu,1992,2.9,,-0.4
+VU,Vanuatu,1993,3.0,,-0.6
+VU,Vanuatu,1994,3.0,,-0.5
+VU,Vanuatu,1995,2.9,,0.1
+VU,Vanuatu,1996,2.9,,0.2
+VU,Vanuatu,1997,2.8,,-0.2
+VU,Vanuatu,1998,2.8,,0.4
+VU,Vanuatu,1999,2.8,,0.4
+VU,Vanuatu,2000,2.8,,0.3
+VU,Vanuatu,2001,2.7,,0.4
+VU,Vanuatu,2002,2.6,,0.2
+VU,Vanuatu,2003,2.7,,0.2
+VU,Vanuatu,2004,2.6,,0.1
+VU,Vanuatu,2005,2.5,,0.3
+VU,Vanuatu,2006,2.5,,0.1
+VU,Vanuatu,2007,3.0,,0.4
+VU,Vanuatu,2008,2.9,,0.5
+VU,Vanuatu,2009,2.8,,0.2
+VU,Vanuatu,2010,2.8,38.08,0.4
+VU,Vanuatu,2011,2.9,35.75,0.5
+VU,Vanuatu,2012,2.7,38.98,0.3
+VU,Vanuatu,2013,2.7,40.92,0.4
+VU,Vanuatu,2014,2.7,31.51,0.3
+VU,Vanuatu,2015,2.4,35.62,-0.1
+VU,Vanuatu,2016,2.1,33.1,0.6
+VU,Vanuatu,2017,1.9,35.35,0.5
+VU,Vanuatu,2018,2.1,29.4,0.4
+VU,Vanuatu,2019,2.0,31.52,0.3
+VU,Vanuatu,2020,2.1,25.91,0.5
+VU,Vanuatu,2021,2.2,24.25,0.6
+VU,Vanuatu,2022,2.1,27.56,1.1
+VU,Vanuatu,2023,1.9,,0.5
+VU,Vanuatu,2024,1.9,,0.7
+WS,Samoa,1990,1.7,,0.1
+WS,Samoa,1991,1.8,,0.4
+WS,Samoa,1992,1.7,,0.2
+WS,Samoa,1993,1.8,,0.1
+WS,Samoa,1994,1.8,,0.3
+WS,Samoa,1995,1.7,,0.3
+WS,Samoa,1996,1.7,,0.1
+WS,Samoa,1997,1.7,,-0.1
+WS,Samoa,1998,1.8,,-0.2
+WS,Samoa,1999,1.7,,0.0
+WS,Samoa,2000,2.0,,0.2
+WS,Samoa,2001,2.1,,0.2
+WS,Samoa,2002,2.2,,0.4
+WS,Samoa,2003,2.2,,0.5
+WS,Samoa,2004,2.2,,0.5
+WS,Samoa,2005,2.2,,0.6
+WS,Samoa,2006,2.2,,0.5
+WS,Samoa,2007,2.3,,0.5
+WS,Samoa,2008,2.3,,0.1
+WS,Samoa,2009,2.3,,0.4
+WS,Samoa,2010,2.4,41.93,0.4
+WS,Samoa,2011,2.5,40.64,0.0
+WS,Samoa,2012,2.5,40.21,0.4
+WS,Samoa,2013,2.5,42.7,0.5
+WS,Samoa,2014,2.5,41.43,0.6
+WS,Samoa,2015,2.8,37.06,0.5
+WS,Samoa,2016,2.8,36.78,0.6
+WS,Samoa,2017,2.5,35.23,0.6
+WS,Samoa,2018,2.6,35.58,0.6
+WS,Samoa,2019,2.6,33.75,0.7
+WS,Samoa,2020,2.2,33.84,0.6
+WS,Samoa,2021,2.5,30.54,0.4
+WS,Samoa,2022,2.4,31.75,0.3
+WS,Samoa,2023,2.3,,0.6
+WS,Samoa,2024,2.4,,0.8
